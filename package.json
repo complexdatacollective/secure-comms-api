@@ -4,6 +4,10 @@
   "description": "API config and functionality for Network Canvas client & server",
   "license": "GPL-3.0-or-later",
   "main": "cipher.js",
+  "engines": {
+    "node": "8.9.3",
+    "npm": "6.1.0"
+  },
   "scripts": {
     "test": "jest",
     "lint": "eslint *.js"
