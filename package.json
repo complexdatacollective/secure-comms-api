@@ -1,0 +1,40 @@
+{
+  "name": "secure-comms-api",
+  "version": "1.0.0",
+  "description": "API config and functionality for Network Canvas client & server",
+  "license": "GPL-3.0-or-later",
+  "main": "cipher.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codaco/secure-comms-api.git"
+  },
+  "author": "Complex Data Collective",
+  "bugs": {
+    "url": "https://github.com/codaco/secure-comms-api/issues"
+  },
+  "homepage": "https://github.com/codaco/secure-comms-api#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.4.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js"
+    ],
+    "setupFiles": [],
+    "testPathIgnorePatterns": [],
+    "testEnvironment": "node"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "libsodium-wrappers": "^0.7.3"
+  }
+}
