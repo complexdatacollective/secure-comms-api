@@ -37,8 +37,8 @@
     "testPathIgnorePatterns": [],
     "testEnvironment": "node"
   },
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
     "libsodium-wrappers": "^0.7.3"
-  }
+  },
+  "peerDependencies": {}
 }
