@@ -186,5 +186,6 @@ module.exports = {
   encrypt,
   fromHex,
   newSaltBytes,
+  ready: libsodium.ready,
   toHex,
 };

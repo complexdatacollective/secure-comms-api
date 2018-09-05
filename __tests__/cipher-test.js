@@ -5,6 +5,7 @@ import {
   encrypt,
   fromHex,
   newSaltBytes,
+  ready,
   toHex,
 } from '../cipher';
 
@@ -67,6 +68,12 @@ describe('cipher functions', () => {
     it(`returns a ${saltLength}-byte array`, () => {
       expect(newSaltBytes()).toBeInstanceOf(Uint8Array);
       expect(newSaltBytes()).toHaveLength(saltLength);
+    });
+  });
+
+  describe('ready', () => {
+    it('returns a promise', async () => {
+      await expect(ready).resolves.toBe(true);
     });
   });
 });
