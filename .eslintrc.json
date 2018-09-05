@@ -15,7 +15,6 @@
         "sourceType": "module"
     },
     "rules": {
-      "import/no-unresolved": [2, { "ignore": ["libsodium-wrappers"] }],
       "import/no-extraneous-dependencies": "off",
       "no-mixed-operators": [1, {"allowSamePrecedence": true}]
     }
