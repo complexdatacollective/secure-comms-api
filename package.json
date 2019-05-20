@@ -5,8 +5,8 @@
   "license": "GPL-3.0-or-later",
   "main": "cipher.js",
   "engines": {
-    "node": "8.9.3",
-    "npm": "6.1.0"
+    "node": "8.16.0",
+    "npm": "6.4.1"
   },
   "scripts": {
     "test": "jest",
