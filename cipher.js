@@ -44,7 +44,7 @@ const toHex = (byteArray) => {
  * @return {Uint8Array} byte array
  * @throws {Error} If input can't be converted
  */
-const fromHex = hex => libsodium.from_hex(hex);
+const fromHex = (hex) => libsodium.from_hex(hex);
 
 /**
  * Key derivation from the out-of-band passcode and server-generated salt (byte array).
