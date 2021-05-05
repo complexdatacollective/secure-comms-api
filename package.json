@@ -6,7 +6,7 @@
   "main": "cipher.js",
   "engines": {
     "node": "12.14.1",
-    "npm": "6.13.4"
+    "npm": "7.6.3"
   },
   "scripts": {
     "test": "jest",
